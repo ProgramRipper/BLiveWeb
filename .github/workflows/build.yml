@@ -1,0 +1,34 @@
+name: Build
+
+on:
+  workflow_call:
+  push:
+    branches:
+      - master
+    tags-ignore:
+      - v*
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+
+      - uses: pnpm/action-setup@v2
+
+      - name: Install dependencies
+        run: pnpm install
+
+      - name: Check
+        run: pnpm check
+
+      - name: Build
+        run: pnpm build
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: bilibili-live-game-web.user.js
+          path: ./dist/bilibili-live-game-web.user.js

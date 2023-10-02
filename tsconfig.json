@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext", /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "module": "commonjs", /* Specify what module code is generated. */
+    "resolveJsonModule": true,
+    "esModuleInterop": true, /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+}

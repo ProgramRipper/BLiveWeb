@@ -1,0 +1,46 @@
+{
+  "name": "bilibili-live-game-web",
+  "private": true,
+  "version": "0.1.0",
+  "description": "在 B 站网页端开播游戏",
+  "keywords": [
+    "bilibili",
+    "tampermonkey",
+    "userscript"
+  ],
+  "homepage": "https://github.com/ProgramRipper/BilibiliLiveGameWeb",
+  "bugs": {
+    "url": "https://github.com/ProgramRipper/BilibiliLiveGameWeb/issues",
+    "email": "programripper@foxmail.com"
+  },
+  "license": "MIT",
+  "author": "ProgramRipper <programripper@foxmail.com> (https://github.com/ProgramRipper)",
+  "repository": "github:ProgramRipper/BilibiliLiveGameWeb",
+  "packageManager": "pnpm@8.8.0",
+  "scripts": {
+    "build": "pnpm build:prod",
+    "build:dev": "webpack --mode=development",
+    "build:prod": "webpack --mode=production --node-env=production",
+    "check": "npm-run-all lint-check type-check",
+    "lint-check": "eslint . --ext .ts --quiet",
+    "type-check": "tsc --noEmit",
+    "lint": "eslint --quiet --fix . --ext .ts",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.4.0",
+    "eslint": "^8.0.1",
+    "eslint-config-standard-with-typescript": "^39.1.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "npm-run-all": "^4.1.5",
+    "terser-webpack-plugin": "^5.3.9",
+    "ts-loader": "^9.4.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
