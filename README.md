@@ -1,4 +1,4 @@
-# BilibiliLiveGameWeb
+# BLiveWeb
 
 > 求求你们，别折腾自己家主播了。——[白夜Tira](https://t.bilibili.com/847139701670281225)
 
@@ -11,9 +11,9 @@
 
 ### 2. 安装脚本
 
-| ghproxy 源                                                                                                                                   | GitHub 源                                                                                                                | Greasy Fork 源                                                                                                        |
--------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------- |
-| [安装](https://ghproxy.com/https://github.com/ProgramRipper/BilibiliLiveGameWeb/releases/latest/download/bilibili-live-game-web.user.js) | [安装](https://github.com/ProgramRipper/BilibiliLiveGameWeb/releases/latest/download/bilibili-live-game-web.user.js) | [安装](https://greasyfork.org/scripts/476537-b-%E7%AB%99%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9B%B4%E6%92%AD%E6%B8%B8%E6%88%8F/code/B%20%E7%AB%99%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9B%B4%E6%92%AD%E6%B8%B8%E6%88%8F.user.js) |
+| ghproxy 源                                                                                                             | GitHub 源                                                                                   | Greasy Fork 源                                                                                                                                                                 |
+| ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| [安装](https://mirror.ghproxy.com/https://github.com/ProgramRipper/BLiveWeb/releases/latest/download/bliveweb.user.js) | [安装](https://github.com/ProgramRipper/BLiveWeb/releases/latest/download/bliveweb.user.js) | [安装](https://greasyfork.org/scripts/476537-b-%E7%AB%99%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9B%B4%E6%92%AD/code/B%20%E7%AB%99%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9B%B4%E6%92%AD.user.js) |
 
 ### 3. 开始直播
 

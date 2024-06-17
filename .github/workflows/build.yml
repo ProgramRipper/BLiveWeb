@@ -16,7 +16,10 @@ jobs:
 
       - uses: actions/setup-node@v3
 
-      - uses: pnpm/action-setup@v2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
 
       - name: Install dependencies
         run: pnpm install
@@ -30,5 +33,5 @@ jobs:
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
         with:
-          name: bilibili-live-game-web.user.js
-          path: ./dist/bilibili-live-game-web.user.js
+          name: bliveweb.user.js
+          path: ./dist/bliveweb.user.js
