@@ -13,7 +13,7 @@
 
 | ghproxy 源                                                                                                             | GitHub 源                                                                                   | Greasy Fork 源                                                                                                                                                                 |
 | ---------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| [安装](https://mirror.ghproxy.com/https://github.com/ProgramRipper/BLiveWeb/releases/latest/download/bliveweb.user.js) | [安装](https://github.com/ProgramRipper/BLiveWeb/releases/latest/download/bliveweb.user.js) | [安装](https://greasyfork.org/scripts/476537-b-%E7%AB%99%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9B%B4%E6%92%AD/code/B%20%E7%AB%99%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9B%B4%E6%92%AD.user.js) |
+| [安装](https://mirror.ghproxy.com/https://github.com/ProgramRipper/BLiveWeb/releases/latest/download/bliveweb.user.js) | [安装](https://github.com/ProgramRipper/BLiveWeb/releases/latest/download/bliveweb.user.js) | [安装](https://update.greasyfork.org/scripts/476537/B%20%E7%AB%99%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9B%B4%E6%92%AD.user.js) |
 
 ### 3. 开始直播
 
