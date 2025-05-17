@@ -1,7 +1,7 @@
 {
-  "name": "bliveweb",
+  "name": "@ProgramRipper/B 站网页端直播",
   "private": true,
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "在 B 站网页端开播",
   "keywords": [
     "bilibili",
@@ -9,27 +9,25 @@
     "userscript"
   ],
   "homepage": "https://github.com/ProgramRipper/BLiveWeb",
-  "bugs": {
-    "url": "https://github.com/ProgramRipper/BLiveWeb/issues",
-    "email": "programripper@foxmail.com"
-  },
+  "bugs": "https://github.com/ProgramRipper/BLiveWeb/issues",
   "license": "MIT",
-  "author": "ProgramRipper <programripper@foxmail.com> (https://github.com/ProgramRipper)",
+  "author": {
+    "name": "ProgramRipper",
+    "email": "programripper@foxmail.com",
+    "url": "https://github.com/ProgramRipper"
+  },
   "repository": "github:ProgramRipper/BLiveWeb",
   "scripts": {
-    "build": "webpack --mode=production --node-env=production",
+    "build": "ts-node scripts/build.ts",
     "format": "prettier -w .",
-    "check": "prettier -c .; tsc --noEmit",
-    "watch": "webpack --watch"
+    "check": "prettier -c .; tsc --noEmit"
   },
   "devDependencies": {
-    "@types/node": "^20.14.2",
-    "prettier": "^3.3.2",
-    "terser-webpack-plugin": "^5.3.10",
-    "ts-loader": "^9.5.1",
+    "@types/node": "^22.15.18",
+    "esbuild": "^0.25.4",
+    "prettier": "^3.5.3",
     "ts-node": "^10.9.2",
-    "typescript": "^5.4.5",
-    "webpack": "^5.92.0",
-    "webpack-cli": "^5.1.4"
-  }
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@10.10.0"
 }
