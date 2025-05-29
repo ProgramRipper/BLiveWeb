@@ -1,7 +1,7 @@
 {
   "name": "@ProgramRipper/B 站网页端直播",
   "private": true,
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "在 B 站网页端开播",
   "keywords": [
     "bilibili",
