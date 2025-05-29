@@ -42,7 +42,7 @@
           this.send = (body: string) => {
             const searchParams = new URLSearchParams(body);
 
-            searchParams.set("platform", "ios");
+            searchParams.set("platform", "pc_link");
             XMLHttpRequest.prototype.send.call(this, searchParams.toString());
           };
         }
