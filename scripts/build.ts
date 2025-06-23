@@ -23,6 +23,8 @@ const banner = {
   supportURL: packageJson.bugs,
   match: "*://link.bilibili.com/*",
   connect: ["api.live.bilibili.com", "*"],
+  grant: "unsafeWindow",
+  "run-at": "document-start",
 } as Record<string, string | string[]>;
 const bannerContent = Object.entries(banner)
   .map(([key, value]) =>
