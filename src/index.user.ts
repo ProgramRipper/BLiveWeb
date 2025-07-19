@@ -102,6 +102,7 @@ import md5 from "md5";
           access_key: "",
           appkey: "aae92bc66f3edfab",
           area_v2: searchParams.get("area_v2") ?? "",
+          build: "9343",
           csrf: searchParams.get("csrf") ?? "",
           csrf_token: searchParams.get("csrf_token") ?? "",
           platform: "pc_link",
